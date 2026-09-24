@@ -1,0 +1,249 @@
+### Register
+POST http://127.0.0.1:8000/api/register
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Elcapitano",
+    "email": "elcapitano@example.com",
+    "password": "secret123",
+    "password_confirmation": "secret123"
+}
+
+### Login
+POST http://127.0.0.1:8000/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "elcapitano@example.com",
+    "password": "secret123"
+}
+
+###Register
+POST 127.0.0.1:8000/api/register
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "justar",
+    "email": "jusar@gmail.com",
+    "password": "justar2334",
+    "password_confirmation": "justar2334"
+}
+
+###login
+POST http://127.0.0.1:8000/api/login
+Content-Type: application/json
+
+{
+    "email": "jusar@gmail.com",
+    "password": "justar2334"
+}
+
+### get me
+GET http://127.0.0.1:8000/api/me
+Accept: application/json
+Authorization: Bearer 2|08UmYPF2BWjtJYB5aBxIPhliKdo8RU9yoH54m3Nx720cdbb7
+
+###get by id
+GET http://127.0.0.1:8000/api/countries/13
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|08UmYPF2BWjtJYB5aBxIPhliKdo8RU9yoH54m3Nx720cdbb7
+
+
+###update a record by id
+PUT http://127.0.0.1:8000/api/countries/11
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|08UmYPF2BWjtJYB5aBxIPhliKdo8RU9yoH54m3Nx720cdbb7
+
+{
+    "population": 63435098
+}
+
+### Create Brazil
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Brazil",
+    "capital": "Brasília",
+    "code": "BR",
+    "continent": "South America",
+    "population": 214326223
+}
+
+### Create Japan
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Japan",
+    "capital": "Tokyo",
+    "code": "JP",
+    "continent": "Asia",
+    "population": 123951692
+}
+
+### Create Nigeria
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "code": "NG",
+    "continent": "Africa",
+    "population": 218541212
+}
+
+### Create Germany
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Germany",
+    "capital": "Berlin",
+    "code": "DE",
+    "continent": "Europe",
+    "population": 83240525
+}
+
+### Create Australia
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Australia",
+    "capital": "Canberra",
+    "code": "AU",
+    "continent": "Oceania",
+    "population": 25921000
+}
+
+### Create Canada
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Canada",
+    "capital": "Ottawa",
+    "code": "CA",
+    "continent": "North America",
+    "population": 38246108
+}
+
+### Create Kenya
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "code": "KE",
+    "continent": "Africa",
+    "population": 67843987
+}
+
+### Create France
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "France",
+    "capital": "Paris",
+    "code": "FR",
+    "continent": "Europe",
+    "population": 67750000
+}
+
+### Create India
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "India",
+    "capital": "New Delhi",
+    "code": "IN",
+    "continent": "Asia",
+    "population": 1407563842
+}
+
+### Create Argentina
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "code": "AR",
+    "continent": "South America",
+    "population": 45808747
+}
+
+### Create United States
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "code": "US",
+    "continent": "North America",
+    "population": 331893745
+}
+
+### Create Tanzania
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "code": "TZ",
+    "continent": "Africa",
+    "population": 59734218
+}
+
+### Create Morrocco
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Morocco",
+    "capital": "Rabat",
+    "code": "MAR",
+    "continent": "Africa",
+    "population": 56787655
+}
+
+###Create South Korea
+POST http://127.0.0.1:8000/api/countries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "South Korea",
+    "capital": "Seoul",
+    "code": "SKR",
+    "continent": "Asia",
+    "population": 232456453546
+}
+
+
+
